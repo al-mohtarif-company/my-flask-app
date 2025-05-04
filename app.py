@@ -1464,5 +1464,3 @@ def logout():
     return jsonify({"message": "تم تسجيل الخروج بنجاح"}), 200
 
 # نقطة الدخول الرئيسية للتطبيق
-if __name__ == '__main__':
-    app.run(debug=True)
